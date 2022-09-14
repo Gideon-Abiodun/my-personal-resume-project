@@ -6,36 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume/Portfolio</title>
   </head>
-  <body>
+  <body style="width: 90%; margin: auto">
     <header>
       <center>
-        <h1>SEGUN GIDEON ABIODUN</h1>
-        <hr />
+        <h1 style="font-size: 30px; color: rgb(19, 19, 80); text-align: center">SEGUN GIDEON ABIODUN</h1>
+        <hr>
 
-        <p>
-          <a href="#about">About </a
-          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#experience">Experience </a
-          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p 
+          style="
+          display:flex;
+          list-style: none;
+          justify-content:space-around;
+          padding: 0;
+          background: black;">
 
-          <a href="#education">Education </a
-          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#about" style="text-decoration: none; color: white">About</a>
+          <a href="#experience" style="text-decoration: none; color: white">Experience</a>
 
-          <a href="#skills">Skills </a
-          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#education" style="text-decoration: none; color: white">Education</a>
 
-          <a href="#interest">Interests </a
-          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#skills" style="text-decoration: none; color: white">Skills</a>
 
-          <a href="#socialmedia">Contact </a
-          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#interest" style="text-decoration: none; color: white">Interests</a>
+
+          <a href="#socialmedia" style="text-decoration: none; color: white;">Contact</a>
         </p>
       </center>
     </header>
 
     <main>
-      <section>
-        <center>
+      <section id="about" style="text-align: center">
+        
           <h3>
             No 25, Salami Street, Akute Area. Ogun State. +234 706 211 9352
           </h3>
@@ -43,15 +44,17 @@
             >Email:
             <a href="#">abiodunsegungideon@gmail.com</a>
           </label>
-        </center>
+        
       </section>
       <hr />
-
+      <center>
       <section>
-        <center>
-          <figure>
-            <img src="./images/sheguuuu.jpg" width="350" height="442" />
-
+        <div style="min-width: 250px; max-width: 400px; height: auto">
+          
+            <img 
+              src="./images/sheguuuu.jpg"
+              style="width: 100%; height: auto" alt="My Picture">
+        </div>
             <p>
               Abiodun Segun is an Entry Level Frontend Developer who is
               comfortable writing basic HTML, CSS and JavaScript. Also
@@ -59,8 +62,8 @@
               as version control tool in web development.
             </p>
             <hr />
-          </figure>
-        </center>
+          </center>
+        
       </section>
 
       <section>
@@ -147,26 +150,27 @@
       </section>
       <hr />
 
-      <section>
-        <center>
+      <section id="skills" style="text-align: center;">
+       
           <h2>Skills</h2>
 
           <h3>Programming Languages and Tools</h3>
 
-          <ul style="list-style-type: none">
+          <ul style="display: flex; justify-content: space-between; padding: 0;">
             <li>WorldPress</li>
             <li>Systeme</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>GIT</li>
           </ul>
+         
           <h3>Workflow</h3>
           <ul style="list-style-type: none">
             <li>Desktop - first, Responsive Design</li>
             <li>On Job learning</li>
             <li>Agile Development</li>
           </ul>
-        </center>
+        
       </section>
       <hr />
 
@@ -202,23 +206,26 @@
       <hr />
     </main>
 
-    <footer>
-      <center>
-        <h3>Social Media</h3>
-        <p>
-          <a href="https://www.twitter.com/itsskuriangidz" target="_blank">
-            Twitter </a
-          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <footer id="socialmedia">
+      
+        <h3
+        style="text-align: center; background: black; color: white;">Social Media</h3>
+        <p
+          style="display: flex; justify-content: space-around; padding: 0;">
+          <a href="https://www.twitter.com/itsskuriangidz" target="_blank"
+            style="text-decoration: none; color: black">
+            Twitter </a>
 
-          <a href="https://www.facebook.com/" target="_blank"> Facebook </a
-          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.facebook.com/" target="_blank"
+            style="text-decoration: none; color: black"> Facebook </a>
 
-          <a href="https://www.instagram.com/" target="_blank"> Instagram </a
-          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.instagram.com/" target="_blank"
+            style="text-decoration: none; color: black"> Instagram </a>
 
-          <a href="https://www.tiktok.com/" target="_blank"> Tiktiok </a>
+          <a href="https://www.tiktok.com/" target="_blank"
+            style="text-decoration: none; color: black"> Tiktiok </a>
         </p>
-      </center>
+      
     </footer>
   </body>
 </html>
